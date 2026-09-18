@@ -1,0 +1,344 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#173f5f"><title>ИВЦ МВА — система обучения</title><meta name="description" content="Кейс 44: концепция системы обучения для ИВЦ МВА — референс-центра ветеринарной медицины."><meta property="og:title" content="ИВЦ МВА — система обучения"><meta property="og:description" content="Система обучения ИВЦ МВА: 5 уровней, ролевые маршруты и практический тренажёр."><meta property="og:type" content="website"><meta property="og:site_name" content="ИВЦ МВА · Система обучения"><meta name="twitter:card" content="summary"><style>
+:root{--mint:#58c3a5;--mint-dark:#08745f;--blue:#3e85b7;--blue-dark:#173f5f;--orange:#f28f5b;--red:#be3528;--ink:#17323d;--muted:#5f747c;--paper:#f4f8f7;--white:#fff;--line:#dbe8e5;--ok:#137b5b;--bad:#b13b31;--shadow:0 18px 55px rgba(23,63,95,.12);--r:24px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:16px;line-height:1.55;overflow-wrap:anywhere}button,input,select{font:inherit}a{color:inherit}button,a,input,select{touch-action:manipulation}.skip{position:fixed;left:12px;top:12px;z-index:100;background:#fff;padding:10px 14px;border-radius:8px;transform:translateY(-160%)}.skip:focus{transform:none}.app{min-height:100vh}.side{position:fixed;inset:0 auto 0 0;width:284px;background:#fff;border-right:1px solid var(--line);padding:24px 20px;display:flex;flex-direction:column;z-index:20}.brand{display:block;padding:9px 6px 16px;text-decoration:none}.brand svg{display:block;width:100%;max-width:216px;height:auto}.case-label{margin:16px 8px 10px;color:#789097;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.14em}.nav{display:grid;gap:8px}.nav a{min-height:62px;display:grid;grid-template-columns:38px 1fr;align-items:center;gap:10px;padding:10px 12px;border-radius:16px;text-decoration:none;color:#567078;border:1px solid transparent;transition:background .18s,color .18s,border-color .18s}.nav a:hover{background:#edf7f4;color:var(--mint-dark)}.nav a.active{background:var(--blue-dark);color:#fff}.nav-n{width:36px;height:36px;border-radius:12px;background:#edf4f6;display:grid;place-items:center;font-size:12px;font-weight:900;color:var(--blue-dark)}.nav a.active .nav-n{background:var(--mint);color:#0d3e34}.profile{margin-top:auto;padding:16px;background:#f7faf9;border:1px solid var(--line);border-radius:18px}.profile label{display:block;font-size:12px;color:var(--muted);margin-bottom:7px}.profile input{width:100%;min-height:44px;border:1px solid #bdd4ce;background:#fff;border-radius:11px;padding:9px 11px;color:var(--ink)}.profile-row{display:flex;justify-content:space-between;margin-top:11px;font-size:12px;color:var(--muted)}.main{margin-left:284px;min-width:0}.top{height:72px;position:sticky;top:0;z-index:15;padding:0 clamp(18px,4vw,58px);background:rgba(244,248,247,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(23,63,95,.08);display:flex;align-items:center;justify-content:space-between;gap:14px}.crumb{font-size:13px;color:#60787f}.switch{display:flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px}.switch a{width:40px;height:36px;display:grid;place-items:center;border-radius:999px;text-decoration:none;font-size:12px;font-weight:900;color:#789097}.switch a.active{background:var(--mint);color:#103f35}.content{width:min(1180px,100%);margin:auto;padding:clamp(22px,5vw,68px) clamp(16px,4vw,54px) 60px}.hero{position:relative;overflow:hidden;min-height:470px;border-radius:34px;background:linear-gradient(120deg,#153e5d 0%,#1e6381 52%,#38aa8c 100%);color:#fff;padding:clamp(30px,6vw,72px);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:34px;align-items:center;box-shadow:var(--shadow)}.hero:before{content:"";position:absolute;width:440px;height:440px;border:76px solid rgba(255,255,255,.1);border-radius:50%;right:-190px;top:-205px}.hero:after{content:"";position:absolute;width:180px;height:180px;background:var(--orange);border-radius:50%;right:12%;bottom:-125px;opacity:.9}.hero-copy,.hero-panel{position:relative;z-index:2}.eyebrow{display:inline-flex;align-items:center;min-height:32px;padding:6px 12px;border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.12em}.hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(42px,6vw,76px);line-height:.96;letter-spacing:-.04em;margin:22px 0 18px;max-width:760px}.hero p{font-size:clamp(17px,2vw,21px);max-width:720px;color:#e8f4f3;margin:0}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.btn{min-height:48px;padding:12px 18px;border:0;border-radius:13px;background:var(--orange);color:#3f2418;font-weight:900;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:filter .18s,background .18s}.btn:hover{filter:brightness(1.04)}.btn.secondary{background:#fff;color:var(--blue-dark)}.btn.ghost{background:transparent;color:inherit;border:1px solid currentColor}.hero-panel{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:24px;padding:24px;backdrop-filter:blur(10px)}.hero-panel strong{display:block;font-family:Georgia,serif;font-size:26px;line-height:1.15}.hero-panel ul{padding-left:20px;margin:16px 0 0;color:#ecf6f4}.section{padding-top:clamp(50px,8vw,90px);scroll-margin-top:80px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:24px}.section h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,4.5vw,50px);line-height:1.02;letter-spacing:-.035em;margin:0}.intro{max-width:760px;margin:9px 0 0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{min-width:0;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;box-shadow:0 10px 28px rgba(23,63,95,.055)}.card .k{color:var(--mint-dark);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:12px}.card h3{font-size:20px;line-height:1.2;margin:0 0 8px}.card p{color:var(--muted);margin:0}.icon{width:44px;height:44px;border-radius:14px;background:#e6f6f1;color:var(--mint-dark);display:grid;place-items:center;margin-bottom:18px}.icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}.stat strong{display:block;font-family:Georgia,serif;font-size:29px;line-height:1;color:var(--blue-dark)}.stat span{display:block;color:var(--muted);font-size:13px;margin-top:7px}.path{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.path article{position:relative;min-width:0;background:#fff;border:1px solid var(--line);border-top:5px solid var(--mint);border-radius:18px;padding:18px}.path article:nth-child(2n){border-top-color:var(--blue)}.path article:last-child{border-top-color:var(--orange)}.path b{display:block;font-size:12px;color:var(--blue);margin-bottom:8px}.path h3{font-size:17px;line-height:1.2;margin:0 0 8px}.path p{font-size:13px;color:var(--muted);margin:0}.timeline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.phase{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px}.phase .days{color:var(--red);font-size:12px;font-weight:900}.phase h3{margin:7px 0;font-size:19px}.phase ul{margin:8px 0 0;padding-left:19px;color:var(--muted);font-size:14px}.callout{background:#dff4ed;border:1px solid #afdcca;border-radius:24px;padding:24px}.callout strong{font-family:Georgia,serif;font-size:25px}.callout p{margin:7px 0 0;color:#315b50}.role-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}.role-tab{min-height:44px;border:1px solid #bdd7d1;background:#fff;color:var(--ink);padding:9px 14px;border-radius:999px;font-weight:800;cursor:pointer}.role-tab[aria-selected="true"]{background:var(--blue-dark);border-color:var(--blue-dark);color:#fff}.role-panel{display:none}.role-panel.active{display:block}.matrix{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.route{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}.route h3{margin:0 0 12px;font-size:21px}.route-list{display:grid;gap:9px}.route-item{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:start;padding:11px;border-radius:13px;background:#f2f8f6}.route-item span:first-child{width:32px;height:32px;border-radius:10px;background:var(--mint);display:grid;place-items:center;font-size:12px;font-weight:900}.route-item b{display:block}.route-item small{color:var(--muted)}.table-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:20px}table{border-collapse:collapse;width:100%;min-width:720px}th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:#60777f;background:#edf5f3}td{color:#536a72}td strong{color:var(--ink)}.quiz{background:#fff;border:1px solid var(--line);border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}.quiz-head{padding:18px 22px;background:#173f5f;color:#fff;display:flex;justify-content:space-between;gap:14px;align-items:center}.progress{height:9px;background:rgba(255,255,255,.2);border-radius:999px;overflow:hidden;flex:1}.progress>span{display:block;height:100%;width:0;background:var(--mint);transition:width .2s}.quiz-body{padding:clamp(20px,4vw,38px)}.scenario{font-size:11px;font-weight:900;letter-spacing:.11em;text-transform:uppercase;color:var(--mint-dark)}.question{font-family:Georgia,serif;font-size:clamp(25px,3.4vw,38px);line-height:1.12;margin:12px 0 22px;max-width:900px}.answers{display:grid;gap:10px}.answer{width:100%;min-height:60px;text-align:left;padding:14px 16px;border:1px solid #c9dcd7;background:#f8fbfa;border-radius:15px;color:var(--ink);cursor:pointer}.answer:hover{border-color:var(--blue);background:#f1f8fb}.answer.selected{border-color:var(--blue);background:#e6f2f8}.answer.correct{border-color:var(--ok);background:#e5f5ee}.answer.wrong{border-color:var(--bad);background:#fae9e7}.feedback{display:none;margin-top:16px;padding:16px;border-radius:15px;background:#eaf6f2;border-left:4px solid var(--mint-dark)}.feedback.show{display:block}.feedback b{display:block}.quiz-actions{display:flex;justify-content:space-between;gap:10px;margin-top:18px}.result{text-align:center;padding:48px 20px}.score{font-family:Georgia,serif;font-size:clamp(64px,11vw,110px);line-height:1;color:var(--mint-dark)}.ethics{display:grid;grid-template-columns:1fr 1fr;gap:14px}.ethic{border-radius:22px;padding:22px}.ethic.good{background:#e2f5ef;border:1px solid #abdccc}.ethic.bad{background:#faece9;border:1px solid #edc5bf}.source{background:#fff;border-left:4px solid var(--blue);border-radius:0 15px 15px 0;padding:15px 18px;margin-top:10px}.source a{color:#126a91}.footer{margin-top:70px;padding-top:20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;color:#70858b;font-size:12px}.footer a{color:#176989}.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f28f5b;outline-offset:3px}.btn:active,.answer:active,.role-tab:active{filter:brightness(.92)}
+@media(max-width:1050px){.side{position:static;width:auto;padding:15px}.brand{max-width:240px}.profile{display:none}.case-label{margin-top:7px}.nav{grid-template-columns:repeat(3,minmax(0,1fr))}.nav a{min-height:54px}.main{margin-left:0}.hero{grid-template-columns:1fr}.hero-panel{max-width:550px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.path{grid-template-columns:repeat(3,minmax(0,1fr))}.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:660px){.side{padding:10px 12px}.brand{padding:5px 4px 8px;max-width:205px}.case-label{display:none}.nav a{display:flex;justify-content:center;padding:8px}.nav a span:last-child{display:none}.nav-n{width:34px;height:34px}.top{height:62px;padding:0 14px}.crumb{max-width:54%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.switch a{width:36px}.content{padding:18px 13px 48px}.hero{min-height:auto;padding:28px 20px;border-radius:25px;gap:20px}.hero h1{font-size:42px}.hero-panel{padding:18px}.actions{flex-direction:column}.actions .btn{width:100%}.stats,.grid,.matrix,.ethics{grid-template-columns:1fr}.path{grid-template-columns:1fr}.timeline{grid-template-columns:1fr}.section-head{display:block}.quiz-head{align-items:flex-start;flex-direction:column}.progress{width:100%}.quiz-actions{flex-direction:column-reverse}.quiz-actions .btn{width:100%}.footer{flex-direction:column}.role-tabs{display:grid;grid-template-columns:1fr 1fr}.role-tab{border-radius:12px;padding:8px;font-size:13px}.table-wrap{overflow:visible;background:transparent;border:0}.table-wrap table{display:block;min-width:0}.table-wrap thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.table-wrap tbody{display:grid;gap:12px}.table-wrap tr{display:block;background:#fff;border:1px solid var(--line);border-radius:17px;overflow:hidden}.table-wrap td{display:block;border-bottom:1px solid var(--line);padding:11px 14px}.table-wrap td:last-child{border-bottom:0}.table-wrap td:before{display:block;color:var(--mint-dark);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:3px}.table-wrap td:nth-child(1):before{content:"Этап"}.table-wrap td:nth-child(2):before{content:"Ответственный"}.table-wrap td:nth-child(3):before{content:"Учебный результат"}.table-wrap td:nth-child(4):before{content:"Проверка"}.question{font-size:28px}}
+@media(max-width:360px){.hero h1{font-size:37px}.role-tabs{grid-template-columns:1fr}.stat{padding:15px}.content{padding-inline:10px}.nav{gap:5px}.side{padding-inline:8px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style></head><body><a class="skip" href="#main">К содержанию</a><div class="app"><aside class="side"><a class="brand" href="index.html" aria-label="ИВЦ МВА — главная страница"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 452.4 105.4" style="enable-background:new 0 0 452.4 105.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000028304667183310475280000006347234279478266788_);}
+	.st2{fill:url(#SVGID_00000078738926855353330350000005184228293733006216_);}
+	.st3{fill:url(#SVGID_00000060005350557635583120000015734356915479337122_);}
+	.st4{fill:url(#SVGID_00000116233913142369273310000003270435694983643804_);}
+	.st5{fill:url(#SVGID_00000039115360300042252250000015052977155356830140_);}
+	.st6{fill:#3C3C3B;}
+	.st7{fill:url(#SVGID_00000101819570244406801290000003113215001080899516_);}
+	.st8{fill:url(#SVGID_00000162313524387584093320000005214594337841193878_);}
+	.st9{fill:url(#SVGID_00000102511519856869588570000009709990485749194649_);}
+	.st10{fill:url(#SVGID_00000106828986594043979450000011538919886498192806_);}
+	.st11{fill:url(#SVGID_00000114040712897877124960000017773546607767753101_);}
+	.st12{fill:url(#SVGID_00000160174158104590712550000015070409360185671070_);}
+	.st13{fill:url(#SVGID_00000131357291301279875440000011483303794371415979_);}
+	.st14{fill:url(#SVGID_00000145740682206289776160000013682040838769494172_);}
+	.st15{fill:url(#SVGID_00000149372240666347273690000005481987687283236485_);}
+	.st16{fill:url(#SVGID_00000183240371765347894800000001963905498675465917_);}
+	.st17{fill:url(#SVGID_00000109012049709099874090000013251937941819972742_);}
+	.st18{fill:url(#SVGID_00000001638034141176257940000004913655846217950342_);}
+	.st19{fill:url(#SVGID_00000010291150016116713130000007622972782627758775_);}
+</style>
+<g>
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="25.6842" y1="25.9165" x2="25.6842" y2="74.9292" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+			<stop  offset="1.209200e-03" style="stop-color:#B72821"/>
+			<stop  offset="0.3079" style="stop-color:#C02E21"/>
+			<stop  offset="0.8028" style="stop-color:#D84022"/>
+			<stop  offset="1" style="stop-color:#E34823"/>
+		</linearGradient>
+		<path class="st0" d="M50.6,75c-0.5-0.2-2.9-0.8-2.9-5.3V33c0-4.4,2.5-5.1,2.9-5.3c0.4-0.2,0.7-0.5,0.7-1c0-0.6-0.5-1.1-1.1-1.1
+			h-2.6l0,0H33l0,0h-2.6c-0.6,0-1.1,0.5-1.1,1.1c0,0.5,0.3,0.8,0.7,1c0.4,0.2,2.8,0.8,2.9,4.8L18.4,47.2V33c0-4.4,2.5-5.1,2.9-5.3
+			c0.4-0.2,0.7-0.5,0.7-1c0-0.6-0.5-1.1-1.1-1.1h-2.6l0,0H3.7l0,0H1.1c-0.6,0-1.1,0.5-1.1,1.1c0,0.5,0.3,0.8,0.7,1
+			c0.5,0.2,2.9,0.8,2.9,5.3l0,0v36.7l0,0c0,4.4-2.5,5.1-2.9,5.3C0.3,75.2,0,75.5,0,76C0,76.6,0.5,77,1.1,77h2.6l0,0v0h14.7h0H21
+			c0.6,0,1.1-0.5,1.1-1.1c0-0.5-0.3-0.8-0.7-1c-0.5-0.2-2.9-0.8-2.9-5.3V55L33,40.3v29.4l0,0c0,4.4-2.5,5.1-2.9,5.3
+			c-0.4,0.2-0.7,0.5-0.7,1c0,0.6,0.5,1.1,1.1,1.1H33l0,0v0h14.7h0h2.6c0.6,0,1.1-0.5,1.1-1.1C51.4,75.5,51.1,75.2,50.6,75z"/>
+		
+			<linearGradient id="SVGID_00000075145455974069807130000009058437668623321995_" gradientUnits="userSpaceOnUse" x1="137.5661" y1="25.9165" x2="137.5661" y2="74.9292" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+			<stop  offset="1.209200e-03" style="stop-color:#B72821"/>
+			<stop  offset="0.3079" style="stop-color:#C02E21"/>
+			<stop  offset="0.8028" style="stop-color:#D84022"/>
+			<stop  offset="1" style="stop-color:#E34823"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000075145455974069807130000009058437668623321995_);" d="M165.1,75c0-2.1-0.2-4.7-3.4-4.8
+			c-3.5-0.2-3.9-4-3.9-5.1V33c0-4.4,2.5-5.1,2.9-5.3c0.4-0.2,0.7-0.5,0.7-1c0-0.6-0.5-1.1-1.1-1.1h-2.6l0,0h-14.7l0,0h-2.6
+			c-0.6,0-1.1,0.5-1.1,1.1c0,0.5,0.3,0.8,0.7,1c0.5,0.2,2.9,0.8,2.9,5.3l0,0v36.7h-14.7V33c0-4.4,2.5-5.1,2.9-5.3
+			c0.4-0.2,0.7-0.5,0.7-1c0-0.6-0.5-1.1-1.1-1.1h-2.6l0,0h-14.7l0,0h-2.6c-0.6,0-1.1,0.5-1.1,1.1c0,0.5,0.3,0.8,0.7,1
+			c0.5,0.2,2.9,0.8,2.9,5.3l0,0v36.7l0,0c0,4.4-2.5,5.1-2.9,5.3c-0.4,0.2-0.7,0.5-0.7,1c0,0.6,0.5,1.1,1.1,1.1h2.6l0,0v0h7.3h7.3
+			h14.7h7.3c11.3,0,10.8,1.7,12.6,6.6c0.2,0.5,0.5,0.7,1,0.7c0.6,0,1.1-0.5,1.1-1.1v-2.6C165.1,80.7,165.1,77.1,165.1,75z"/>
+		
+			<linearGradient id="SVGID_00000053520178821928197610000008147164449299836348_" gradientUnits="userSpaceOnUse" x1="82.5434" y1="25.9165" x2="82.5434" y2="74.9292" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+			<stop  offset="1.209200e-03" style="stop-color:#B72821"/>
+			<stop  offset="0.3079" style="stop-color:#C02E21"/>
+			<stop  offset="0.8028" style="stop-color:#D84022"/>
+			<stop  offset="1" style="stop-color:#E34823"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000053520178821928197610000008147164449299836348_);" d="M91.6,45.6c6.3-3.6,12.2-8.4,12.2-12.6
+			c0-8.1-10.3-7.3-12.1-7.3s-14.7,0-14.7,0H62.4l0,0h-2.6c-0.6,0-1.1,0.5-1.1,1.1c0,0.5,0.3,0.8,0.7,1c0.5,0.2,2.9,0.8,2.9,5.3l0,0
+			v36.7l0,0c0,4.4-2.5,5.1-2.9,5.3c-0.4,0.2-0.7,0.5-0.7,1c0,0.6,0.5,1.1,1.1,1.1h2.6l0,0v0H77c0,0,11.8,0,14.7,0
+			c7.3,0,14.7-3.7,14.7-14.7C106.4,54.7,102.4,48.4,91.6,45.6z M81.6,30.9c1.2,0,7.9-0.5,7.9,4.8c0,2.8-3.9,6.1-8.2,8.5
+			c-1.4,0.8-2.9,1.5-4.3,2.1V44V30.9C79.1,30.9,81,30.9,81.6,30.9z M83.3,69.7c-1,0-3.9,0-6.2,0V51.4c1.1,0,3.3-0.6,5.9-1.6
+			c7,1.7,9.6,5.8,9.6,10.7C92.5,67.4,87.9,69.7,83.3,69.7z"/>
+	</g>
+	<g>
+		
+			<linearGradient id="SVGID_00000175291351573711792770000011042386859036534165_" gradientUnits="userSpaceOnUse" x1="313.3329" y1="25.9165" x2="313.3329" y2="74.9292" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+			<stop  offset="1.209200e-03" style="stop-color:#B72821"/>
+			<stop  offset="0.3079" style="stop-color:#C02E21"/>
+			<stop  offset="0.8028" style="stop-color:#D84022"/>
+			<stop  offset="1" style="stop-color:#E34823"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000175291351573711792770000011042386859036534165_);" d="M341.9,75c-0.5-0.2-2.9-0.8-2.9-5.3V33
+			c0-4.4,2.5-5.1,2.9-5.3c0.4-0.2,0.7-0.5,0.7-1c0-0.6-0.5-1.1-1.1-1.1H339l0,0h-14.7l0,0h-2.6c-0.6,0-1.1,0.5-1.1,1.1
+			c0,0.5,0.3,0.8,0.7,1c0.4,0.2,2.8,0.8,2.9,4.8l-11,14.6l-11-14.6c0.2-4,2.5-4.6,2.9-4.8c0.4-0.2,0.7-0.5,0.7-1
+			c0-0.6-0.5-1.1-1.1-1.1h-2.6l0,0h-14.7l0,0H285c-0.6,0-1.1,0.5-1.1,1.1c0,0.5,0.3,0.8,0.7,1c0.5,0.2,2.9,0.8,2.9,5.3l0,0v36.7l0,0
+			c0,4.4-2.5,5.1-2.9,5.3c-0.4,0.2-0.7,0.5-0.7,1c0,0.6,0.5,1.1,1.1,1.1h2.6l0,0v0h14.7h0h2.6c0.6,0,1.1-0.5,1.1-1.1
+			c0-0.5-0.3-0.8-0.7-1c-0.5-0.2-2.9-0.8-2.9-5.3v-28l11,14.7l11-14.6v28l0,0c0,4.4-2.5,5.1-2.9,5.3c-0.4,0.2-0.7,0.5-0.7,1
+			c0,0.6,0.5,1.1,1.1,1.1h2.6l0,0v0H339h0h2.6c0.6,0,1.1-0.5,1.1-1.1C342.7,75.5,342.4,75.2,341.9,75z"/>
+		
+			<linearGradient id="SVGID_00000049185013611723557550000009853654649052841147_" gradientUnits="userSpaceOnUse" x1="372.2651" y1="25.9165" x2="372.2651" y2="74.9292" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+			<stop  offset="1.209200e-03" style="stop-color:#B72821"/>
+			<stop  offset="0.3079" style="stop-color:#C02E21"/>
+			<stop  offset="0.8028" style="stop-color:#D84022"/>
+			<stop  offset="1" style="stop-color:#E34823"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000049185013611723557550000009853654649052841147_);" d="M381.3,45.6c6.3-3.6,12.2-8.4,12.2-12.6
+			c0-8.1-10.3-7.3-12.1-7.3c-1.8,0-14.7,0-14.7,0h-14.7l0,0h-2.6c-0.6,0-1.1,0.5-1.1,1.1c0,0.5,0.3,0.8,0.7,1
+			c0.5,0.2,2.9,0.8,2.9,5.3l0,0v36.7l0,0c0,4.4-2.5,5.1-2.9,5.3c-0.4,0.2-0.7,0.5-0.7,1c0,0.6,0.5,1.1,1.1,1.1h2.6l0,0v0h14.7
+			c0,0,11.8,0,14.7,0c7.3,0,14.7-3.7,14.7-14.7C396.1,54.7,392.1,48.4,381.3,45.6z M371.3,30.9c1.2,0,7.9-0.5,7.9,4.8
+			c0,2.8-3.9,6.1-8.2,8.5c-1.4,0.8-2.9,1.5-4.3,2.1V44V30.9C368.8,30.9,370.8,30.9,371.3,30.9z M373,69.7c-1,0-3.9,0-6.2,0V51.4
+			c1.1,0,3.3-0.6,5.9-1.6c7,1.7,9.6,5.8,9.6,10.7C382.3,67.4,377.6,69.7,373,69.7z"/>
+		
+			<linearGradient id="SVGID_00000020395670628959233030000011790880768780174498_" gradientUnits="userSpaceOnUse" x1="424.2756" y1="25.9165" x2="424.2756" y2="74.9292" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+			<stop  offset="1.209200e-03" style="stop-color:#B72821"/>
+			<stop  offset="0.3079" style="stop-color:#C02E21"/>
+			<stop  offset="0.8028" style="stop-color:#D84022"/>
+			<stop  offset="1" style="stop-color:#E34823"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000020395670628959233030000011790880768780174498_);" d="M451.6,75c-0.5-0.2-1.9-0.7-3.5-5.2
+			L435.8,33c-1.1-4.2,2.5-5.1,2.9-5.3c0.4-0.2,0.7-0.5,0.7-1c0-0.6-0.5-1.1-1.1-1.1h-2.6h-20.2H413c-0.6,0-1.1,0.5-1.1,1.1
+			c0,0.5,0.3,0.8,0.7,1c0.5,0.2,4.3,1.7,2.9,5.3l0,0l-14.2,36.7l0,0c-1.8,4.5-4,5.1-4.5,5.3c-0.4,0.2-0.7,0.5-0.7,1
+			c0,0.6,0.5,1.1,1.1,1.1h1.3h1.3h5.7v0h6.3c0.6,0,1.1-0.5,1.1-1.1c0-0.5-0.3-0.8-0.7-1c-0.5-0.2-4.5-0.7-2.9-5.2l4.8-12.5
+			c2.2,0.7,15.8,5,18.5,12.4l0,0l0,0l0,0c1.6,4.5-2.5,5.1-2.9,5.3c-0.4,0.2-0.7,0.5-0.7,1c0,0.6,0.5,1.1,1.1,1.1h6.3v0h12.4l0,0h2.6
+			c0.6,0,1.1-0.5,1.1-1.1C452.4,75.5,452.1,75.2,451.6,75z M416.4,51.3l5.4-13.9l6.5,19.5C426.2,55.6,421.2,52.8,416.4,51.3z"/>
+	</g>
+	<g>
+		<path class="st6" d="M49.1,91.9c0.6-0.1,1.8-0.2,2.9-0.2c1.5,0,2.4,0.2,3.1,0.7c0.7,0.4,1.1,1.1,1.1,2.1c0,1-0.6,1.9-1.8,2.4v0
+			c1.2,0.3,2.2,1.2,2.2,2.7c0,1-0.4,1.7-1.1,2.3c-0.8,0.7-2.1,1-4.1,1c-1.1,0-2-0.1-2.5-0.1V91.9z M51.1,96.2h1
+			c1.4,0,2.2-0.7,2.2-1.6c0-1-0.8-1.5-2.1-1.5c-0.6,0-0.9,0-1.1,0.1V96.2z M51.1,101.3c0.3,0,0.6,0,1.1,0c1.3,0,2.4-0.5,2.4-1.8
+			c0-1.3-1.1-1.8-2.5-1.8h-1V101.3z"/>
+		<path class="st6" d="M66.1,97.8H62v3.2h4.6v1.6h-6.6v-11h6.4v1.6H62v2.8h4.1V97.8z"/>
+		<path class="st6" d="M71.9,93.4h-3.1v-1.7h8.3v1.7h-3.2v9.3h-2V93.4z"/>
+		<path class="st6" d="M86,97.8h-4.1v3.2h4.6v1.6h-6.6v-11h6.4v1.6h-4.4v2.8H86V97.8z"/>
+		<path class="st6" d="M89.7,91.9c0.7-0.1,1.7-0.2,3.1-0.2c1.5,0,2.5,0.3,3.2,0.9c0.7,0.5,1.1,1.4,1.1,2.4c0,1-0.3,1.9-0.9,2.5
+			c-0.8,0.8-2.1,1.2-3.5,1.2c-0.4,0-0.7,0-1-0.1v4.1h-2V91.9z M91.7,97c0.2,0.1,0.6,0.1,1,0.1c1.5,0,2.4-0.7,2.4-2
+			c0-1.2-0.8-1.9-2.2-1.9c-0.6,0-0.9,0-1.2,0.1V97z"/>
+		<path class="st6" d="M102.2,91.7v3.9c0,1.7,0,3.4-0.1,4.8l0,0c0.6-1.2,1.3-2.6,2-3.8l2.9-4.9h2v11h-1.9v-3.9c0-1.7,0-3.1,0.1-4.6
+			h0c-0.5,1.3-1.3,2.6-2,3.8l-2.8,4.7h-2.2v-11H102.2z"/>
+		<path class="st6" d="M114.8,91.7v4.4h4.7v-4.4h2v11h-2v-4.8h-4.7v4.8h-2v-11H114.8z"/>
+		<path class="st6" d="M127.4,99.6l-0.9,3.1h-2.1l3.5-11h2.6l3.6,11h-2.2l-1-3.1H127.4z M130.6,98.1l-0.9-2.7
+			c-0.2-0.7-0.4-1.4-0.6-2.1h0c-0.2,0.6-0.3,1.4-0.5,2.1l-0.8,2.7H130.6z"/>
+		<path class="st6" d="M137.1,91.9c0.7-0.1,1.7-0.2,3.1-0.2c1.5,0,2.5,0.3,3.2,0.9c0.7,0.5,1.1,1.4,1.1,2.4c0,1-0.3,1.9-0.9,2.5
+			c-0.8,0.8-2.1,1.2-3.5,1.2c-0.4,0-0.7,0-1-0.1v4.1h-2V91.9z M139.1,97c0.2,0.1,0.6,0.1,1,0.1c1.5,0,2.4-0.7,2.4-2
+			c0-1.2-0.8-1.9-2.2-1.9c-0.6,0-0.9,0-1.2,0.1V97z"/>
+		<path class="st6" d="M149.7,91.7v4.4h4.7v-4.4h2v11h-2v-4.8h-4.7v4.8h-2v-11H149.7z"/>
+		<path class="st6" d="M162.1,91.7v4c0.3-0.1,0.9-0.1,1.3-0.1c2.3,0,4.3,1.1,4.3,3.5c0,1-0.3,1.8-0.9,2.4c-1,1-2.7,1.4-4.2,1.4
+			c-1.1,0-1.9-0.1-2.4-0.1v-11H162.1z M162.1,101.2c0.2,0,0.6,0.1,1,0.1c1.3,0,2.5-0.7,2.5-2.1c0-1.5-1.3-2-2.5-2
+			c-0.4,0-0.8,0-1,0.1V101.2z M170.8,91.7v11h-2v-11H170.8z"/>
+		<path class="st6" d="M176.6,91.7v3.9c0,1.7,0,3.4-0.1,4.8l0,0c0.6-1.2,1.3-2.6,2-3.8l2.9-4.9h2v11h-1.9v-3.9c0-1.7,0-3.1,0.1-4.6
+			h0c-0.5,1.3-1.3,2.6-2,3.8l-2.8,4.7h-2.2v-11H176.6z M178.2,89.3c0,0.6,0.2,1,0.8,1c0.6,0,0.8-0.4,0.9-1h1.4
+			c-0.1,1.3-0.9,1.9-2.3,1.9c-1.4,0-2.1-0.7-2.2-1.9H178.2z"/>
+	</g>
+	<g>
+		<path class="st6" d="M264.1,91.9c0.7-0.1,1.7-0.2,3.1-0.2c1.5,0,2.5,0.3,3.2,0.9c0.7,0.5,1.1,1.4,1.1,2.4c0,1-0.3,1.9-0.9,2.5
+			c-0.8,0.8-2.1,1.2-3.5,1.2c-0.4,0-0.7,0-1-0.1v4.1h-2V91.9z M266.1,97c0.2,0.1,0.6,0.1,1,0.1c1.5,0,2.4-0.7,2.4-2
+			c0-1.2-0.8-1.9-2.2-1.9c-0.6,0-0.9,0-1.2,0.1V97z"/>
+		<path class="st6" d="M279.9,97.8h-4.1v3.2h4.6v1.6h-6.6v-11h6.4v1.6h-4.4v2.8h4.1V97.8z"/>
+		<path class="st6" d="M288.6,91.3v1c2.3,0.1,4.7,1.5,4.7,5c0,3.4-2.3,4.8-4.7,5v1h-1.9v-1c-2.3-0.2-4.7-1.5-4.7-4.9
+			c0-3.5,2.6-4.9,4.7-5v-1H288.6z M286.7,93.6c-1.2,0.1-2.6,1-2.6,3.6c0,2.4,1.4,3.4,2.6,3.5V93.6z M288.6,100.7
+			c1.2-0.1,2.6-1,2.6-3.5c0-2.5-1.4-3.5-2.6-3.6V100.7z"/>
+		<path class="st6" d="M301.7,97.8h-4.1v3.2h4.6v1.6h-6.6v-11h6.4v1.6h-4.4v2.8h4.1V97.8z"/>
+		<path class="st6" d="M304.4,91.9c0.7-0.1,1.7-0.2,3.1-0.2c1.5,0,2.5,0.3,3.2,0.9c0.7,0.5,1.1,1.4,1.1,2.4c0,1-0.3,1.9-0.9,2.5
+			c-0.8,0.8-2.1,1.2-3.5,1.2c-0.4,0-0.7,0-1-0.1v4.1h-2V91.9z M306.4,97c0.2,0.1,0.6,0.1,1,0.1c1.5,0,2.4-0.7,2.4-2
+			c0-1.2-0.8-1.9-2.2-1.9c-0.6,0-0.9,0-1.2,0.1V97z"/>
+		<path class="st6" d="M320.2,97.8H316v3.2h4.6v1.6H314v-11h6.4v1.6H316v2.8h4.1V97.8z"/>
+		<path class="st6" d="M324.9,91.7v4.4h4.7v-4.4h2v11h-2v-4.8h-4.7v4.8h-2v-11H324.9z"/>
+		<path class="st6" d="M342.3,102.4c-0.5,0.2-1.5,0.5-2.8,0.5c-3.5,0-5.6-2.2-5.6-5.5c0-3.6,2.5-5.8,5.9-5.8c1.3,0,2.3,0.3,2.7,0.5
+			l-0.4,1.6c-0.5-0.2-1.2-0.4-2.2-0.4c-2.2,0-3.9,1.4-3.9,4c0,2.4,1.4,4,3.8,4c0.8,0,1.7-0.2,2.2-0.4L342.3,102.4z"/>
+		<path class="st6" d="M347.9,96.4v1.4h-4.2v-1.4H347.9z"/>
+		<path class="st6" d="M352.1,91.7v9.4h4.4v-9.4h2v9.4l1,0l-0.1,4.3h-1.6l-0.1-2.7h-7.7v-11H352.1z"/>
+		<path class="st6" d="M367.7,97.8h-4.1v3.2h4.6v1.6h-6.6v-11h6.4v1.6h-4.4v2.8h4.1V97.8z"/>
+		<path class="st6" d="M372.5,91.7v4.4h4.7v-4.4h2v11h-2v-4.8h-4.7v4.8h-2v-11H372.5z"/>
+		<path class="st6" d="M384,93.4h-3.1v-1.7h8.3v1.7h-3.2v9.3h-2V93.4z"/>
+		<path class="st6" d="M391,91.9c0.7-0.1,1.7-0.2,3.1-0.2c1.5,0,2.5,0.3,3.2,0.9c0.7,0.5,1.1,1.4,1.1,2.4c0,1-0.3,1.9-0.9,2.5
+			c-0.8,0.8-2.1,1.2-3.5,1.2c-0.4,0-0.7,0-1-0.1v4.1h-2V91.9z M393,97c0.2,0.1,0.6,0.1,1,0.1c1.5,0,2.4-0.7,2.4-2
+			c0-1.2-0.8-1.9-2.2-1.9c-0.6,0-0.9,0-1.2,0.1V97z"/>
+	</g>
+	<g>
+		<g>
+			
+				<linearGradient id="SVGID_00000010293915453953758840000005810744951978754733_" gradientUnits="userSpaceOnUse" x1="163.448" y1="-102.7885" x2="224.8402" y2="81.3874" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#30547E"/>
+				<stop  offset="0.188" style="stop-color:#305D78"/>
+				<stop  offset="0.4922" style="stop-color:#317568"/>
+				<stop  offset="0.8726" style="stop-color:#329B4E"/>
+				<stop  offset="1" style="stop-color:#33AA44"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000010293915453953758840000005810744951978754733_);" d="M209.2,6.6c7.9,1.8,10.4,9.8,10.5,10.1
+				l0.3,0.8l-0.7,0.6c-0.6,0.5-1.3,0.7-2,0.7c-1.2,0-2.7-0.7-4.3-2.1c-0.4-0.4-1.1-0.4-2.2-0.5c-0.9,0-1.9-0.1-3-0.5
+				c-1.6-0.6-2.4-1.6-2.8-2.5c-0.4-0.1-0.8-0.1-1.1-0.1c-2,0-4.1,0.9-5.8,2.3v10.2h-5.6c-0.6,5.2,1.1,10.7,5.1,16.1
+				c4.8,6.5,12.6,12.3,22.1,16.5c-1-3.9-3.8-6.5-7.3-9.9c-1.3-1.2-2.6-2.5-4-4c-6.2-6.5-5.4-13.6-5.4-13.9l0.1-1.2h1.2h19.4h19.4
+				h1.2l0.1,1.2c0,0.3,0.8,7.4-5.4,13.9c-1.4,1.4-2.7,2.7-4,4c-3.5,3.3-6.3,6-7.3,9.9c9.5-4.2,17.3-10,22.1-16.5
+				c4-5.4,5.7-10.9,5.1-16.1h-5.6V15.5c-1.9-1.5-4-2.3-5.8-2.3c-0.4,0-0.8,0-1.1,0.1c-0.3,0.9-1.2,1.9-2.8,2.5
+				c-1.1,0.4-2.1,0.4-3,0.5c-1.1,0.1-1.8,0.1-2.2,0.5c-1.6,1.4-3,2.1-4.3,2.1c-0.8,0-1.4-0.3-2-0.7l-0.7-0.6l0.3-0.8
+				c0.1-0.3,2.7-8.4,10.5-10.1c1.4-0.3,2.9-0.5,4.3-0.5c1.7,0,4.2,0.2,6.8,1.3V0h-51.4v7.4c2.6-1,5.1-1.3,6.8-1.3
+				C206.4,6.1,207.8,6.3,209.2,6.6z"/>
+			
+				<linearGradient id="SVGID_00000070112495308246019550000016010809006671117457_" gradientUnits="userSpaceOnUse" x1="181.2985" y1="-108.7387" x2="242.6989" y2="75.4619" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#30547E"/>
+				<stop  offset="0.188" style="stop-color:#305D78"/>
+				<stop  offset="0.4922" style="stop-color:#317568"/>
+				<stop  offset="0.8726" style="stop-color:#329B4E"/>
+				<stop  offset="1" style="stop-color:#33AA44"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000070112495308246019550000016010809006671117457_);" d="M229,70.2c-0.3-0.6-0.9-1.2-1.8-1.8
+				c-0.1,2-0.1,4.1-0.1,6.1c0.1-0.1,0.3-0.2,0.4-0.3C228.3,73.7,230,72.2,229,70.2z"/>
+			
+				<linearGradient id="SVGID_00000033355342099141132230000012808189261365158050_" gradientUnits="userSpaceOnUse" x1="187.3012" y1="-110.7396" x2="248.7016" y2="73.461" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#30547E"/>
+				<stop  offset="0.188" style="stop-color:#305D78"/>
+				<stop  offset="0.4922" style="stop-color:#317568"/>
+				<stop  offset="0.8726" style="stop-color:#329B4E"/>
+				<stop  offset="1" style="stop-color:#33AA44"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000033355342099141132230000012808189261365158050_);" d="M227.2,86.5c0,0.1,0,0.3,0,0.4
+				c0.1,1.8,0.2,3,0.9,3.7c0.4,0.4,1.1,0.8,2,1.1l-0.1-0.7C229.6,89.4,228.8,88,227.2,86.5z"/>
+			
+				<linearGradient id="SVGID_00000127002988158696419450000004658174596977013931_" gradientUnits="userSpaceOnUse" x1="174.1129" y1="-106.3435" x2="235.5134" y2="77.8571" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#30547E"/>
+				<stop  offset="0.188" style="stop-color:#305D78"/>
+				<stop  offset="0.4922" style="stop-color:#317568"/>
+				<stop  offset="0.8726" style="stop-color:#329B4E"/>
+				<stop  offset="1" style="stop-color:#33AA44"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000127002988158696419450000004658174596977013931_);" d="M220.1,74.2c0.1,0.1,0.3,0.2,0.4,0.3
+				c0-2-0.1-4.1-0.1-6.1c-0.9,0.6-1.5,1.2-1.8,1.8C217.5,72.2,219.3,73.7,220.1,74.2z"/>
+			
+				<linearGradient id="SVGID_00000034774181748065899550000011599804739533267118_" gradientUnits="userSpaceOnUse" x1="171.643" y1="-105.5202" x2="233.0434" y2="78.6804" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#30547E"/>
+				<stop  offset="0.188" style="stop-color:#305D78"/>
+				<stop  offset="0.4922" style="stop-color:#317568"/>
+				<stop  offset="0.8726" style="stop-color:#329B4E"/>
+				<stop  offset="1" style="stop-color:#33AA44"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000034774181748065899550000011599804739533267118_);" d="M262.2,25.7c0.2,3.2-0.1,6.5-1.2,9.9
+				c-1.7,5.5-5.1,10.9-10,15.6c-5.2,5-11.8,9.2-19.7,12.5c2,1.5,3.3,3.1,3.9,5.1c1.3,4.1-0.6,8.2-5,11c-0.6,0.4-1.3,0.8-1.9,1.2
+				c3.7,3.7,5.1,7.2,4.1,10.3l-0.3,1c0.4,0.1,0.9,0.1,1.4,0.2l1.2,0.1v1.2v1.6v1.3h-1.3h-9.7h-9.7h-1.3v-1.3v-1.6v-1.2l1.2-0.1
+				c0.5,0,0.9-0.1,1.4-0.2l-0.3-1c-1-3.1,0.4-6.6,4.1-10.3c-0.6-0.4-1.2-0.8-1.9-1.2c-4.4-2.8-6.3-6.9-5-11c0.6-2,1.9-3.7,3.9-5.1
+				c-7.9-3.3-14.6-7.5-19.7-12.5c-4.8-4.7-8.3-10.1-10-15.6c-1-3.4-1.4-6.7-1.2-9.9h-12.9V77h25.7v25.7h51.4V77h25.7V25.7H262.2z"/>
+			
+				<linearGradient id="SVGID_00000041256299121845635860000013174846448381112475_" gradientUnits="userSpaceOnUse" x1="178.8743" y1="-107.9306" x2="240.2747" y2="76.27" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#30547E"/>
+				<stop  offset="0.188" style="stop-color:#305D78"/>
+				<stop  offset="0.4922" style="stop-color:#317568"/>
+				<stop  offset="0.8726" style="stop-color:#329B4E"/>
+				<stop  offset="1" style="stop-color:#33AA44"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000041256299121845635860000013174846448381112475_);" d="M217.6,91l-0.1,0.7
+				c1-0.3,1.7-0.7,2.1-1.1c0.7-0.7,0.8-1.9,0.9-3.7c0-0.1,0-0.3,0-0.5C218.8,88,217.9,89.4,217.6,91z"/>
+		</g>
+		<g>
+			
+				<linearGradient id="SVGID_00000138541997859281410830000005685230329710727845_" gradientUnits="userSpaceOnUse" x1="229.2336" y1="6.3737" x2="229.2336" y2="146.5309" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#302D7D"/>
+				<stop  offset="0.1625" style="stop-color:#2C3678"/>
+				<stop  offset="0.4255" style="stop-color:#214E6A"/>
+				<stop  offset="0.7541" style="stop-color:#0F7454"/>
+				<stop  offset="1" style="stop-color:#009640"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000138541997859281410830000005685230329710727845_);" d="M227,84.6c2.3,1.9,3.8,3.8,4.2,6.2
+				c1-3.1-1.1-6.3-4-9.2c-0.1,0-0.1,0.1-0.2,0.1C227,82.9,227,83.8,227,84.6z"/>
+			
+				<linearGradient id="SVGID_00000113335908056077982100000000981756890424219806_" gradientUnits="userSpaceOnUse" x1="203.3487" y1="6.3737" x2="203.3487" y2="146.5309" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#302D7D"/>
+				<stop  offset="0.1625" style="stop-color:#2C3678"/>
+				<stop  offset="0.4255" style="stop-color:#214E6A"/>
+				<stop  offset="0.7541" style="stop-color:#0F7454"/>
+				<stop  offset="1" style="stop-color:#009640"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000113335908056077982100000000981756890424219806_);" d="M220.1,60.8c0-0.3,0-0.6-0.1-0.9
+				c-20.7-8.8-32.5-24.6-28-38.1c1.6-4.6,6.6-9.9,11.9-9.9c0.7,0,1.5,0.1,2.2,0.3c0,0,0,1.6,2.1,2.3c2.1,0.7,4.2,0,5.7,1.2
+				c1.3,1.2,2.5,1.8,3.4,1.8c0.4,0,0.8-0.1,1.1-0.4c0,0-2.3-7.6-9.5-9.2c-1.2-0.3-2.6-0.4-4-0.4c-4.9,0-10.7,2-14.7,8.1
+				c-8.8,13.2-1.9,35.4,27.4,47.2c0.8-0.4,1.6-0.9,2.5-1.3C220.1,61.2,220.1,61,220.1,60.8z"/>
+			
+				<linearGradient id="SVGID_00000090283069889197617410000003288898506255634356_" gradientUnits="userSpaceOnUse" x1="225.1907" y1="6.3737" x2="225.1907" y2="146.5309" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#302D7D"/>
+				<stop  offset="0.1625" style="stop-color:#2C3678"/>
+				<stop  offset="0.4255" style="stop-color:#214E6A"/>
+				<stop  offset="0.7541" style="stop-color:#0F7454"/>
+				<stop  offset="1" style="stop-color:#009640"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000090283069889197617410000003288898506255634356_);" d="M234,69.1c-0.6-1.8-1.8-3.4-4.1-4.9
+				c-0.6,0.2-1.2,0.5-1.8,0.7c-0.3,0.1-0.5,0.2-0.7,0.3c0,0.5,0,1.1-0.1,1.7c1.5,0.9,2.4,1.8,2.9,2.7c1.1,2.1,0.3,4.2-1.9,5.8
+				c-0.4,0.3-0.8,0.5-1.2,0.8c-0.2,0.2-0.5,0.3-0.7,0.5c-0.2,0.2-0.5,0.3-0.7,0.5c-0.3,0.2-0.5,0.4-0.8,0.6
+				c-0.2,0.1-0.4,0.3-0.6,0.4c-0.2,0.1-0.4,0.3-0.6,0.4c-0.6,0.5-1.3,1-1.9,1.6c-0.2,0.2-0.4,0.3-0.6,0.5c0,0-0.1,0.1-0.1,0.1
+				c-0.1,0.1-0.3,0.2-0.4,0.4c-0.1,0.1-0.2,0.2-0.3,0.3c-0.1,0.1-0.1,0.1-0.2,0.2c-2.9,2.9-4.9,6.1-4,9.2c0.4-2.4,1.9-4.3,4.2-6.2
+				c0.2-0.2,0.5-0.4,0.7-0.6c0.2-0.2,0.5-0.3,0.7-0.5c0.2-0.2,0.5-0.3,0.7-0.5c0.2-0.1,0.4-0.3,0.6-0.4c0.2-0.1,0.4-0.3,0.6-0.4
+				c0.6-0.4,1.2-0.8,1.9-1.2c0.2-0.1,0.4-0.2,0.6-0.4c0,0,0.1,0,0.1-0.1c0.2-0.1,0.3-0.2,0.5-0.3c0.1,0,0.1-0.1,0.2-0.1
+				c0.1-0.1,0.3-0.2,0.4-0.2c0.7-0.4,1.4-0.9,2.1-1.3C233,76.4,235.2,73,234,69.1z"/>
+			
+				<linearGradient id="SVGID_00000021833308472426013890000005264823772465131907_" gradientUnits="userSpaceOnUse" x1="223.7946" y1="6.3737" x2="223.7946" y2="146.5309" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#302D7D"/>
+				<stop  offset="0.1625" style="stop-color:#2C3678"/>
+				<stop  offset="0.4255" style="stop-color:#214E6A"/>
+				<stop  offset="0.7541" style="stop-color:#0F7454"/>
+				<stop  offset="1" style="stop-color:#009640"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000021833308472426013890000005264823772465131907_);" d="M225.4,65.9c-0.3,0.1-0.6,0.2-0.8,0.3
+				c-0.3,0.1-0.6,0.2-0.8,0.4c-0.8,0.4-1.5,0.7-2.1,1c0.1,2.5,0.1,5.2,0.2,7.8c0.7,0.5,1.3,0.9,1.9,1.4c0.6-0.5,1.3-1,1.9-1.4
+				c0-2.6,0.1-5.3,0.2-7.8c0-0.3,0-0.5,0-0.8c0-0.3,0-0.5,0-0.7c0-0.1,0-0.3,0-0.4C225.8,65.8,225.6,65.9,225.4,65.9z"/>
+			
+				<linearGradient id="SVGID_00000094599316113038890070000014862302743559675578_" gradientUnits="userSpaceOnUse" x1="237.0746" y1="6.3737" x2="237.0746" y2="146.5309" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#302D7D"/>
+				<stop  offset="0.1625" style="stop-color:#2C3678"/>
+				<stop  offset="0.4255" style="stop-color:#214E6A"/>
+				<stop  offset="0.7541" style="stop-color:#0F7454"/>
+				<stop  offset="1" style="stop-color:#009640"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000094599316113038890070000014862302743559675578_);" d="M257.4,15.5c-4.1-6.1-9.8-8.1-14.7-8.1
+				c-1.4,0-2.8,0.2-4,0.4c-7.2,1.6-9.5,9.2-9.5,9.2c0.3,0.3,0.7,0.4,1.1,0.4c0.9,0,2.1-0.6,3.4-1.8c1.4-1.2,3.5-0.5,5.7-1.2
+				c2.1-0.7,2.1-2.3,2.1-2.3c0.7-0.2,1.5-0.3,2.2-0.3c5.3,0,10.4,5.2,11.9,9.9c4.5,13.5-7.3,29.2-28,38.1c-0.2,0.1-0.5,0.2-0.7,0.3
+				c-0.2,0.1-0.5,0.2-0.7,0.3c-0.2,0.1-0.3,0.1-0.5,0.2c-0.3,0.1-0.6,0.2-0.9,0.4c-0.3,0.1-0.6,0.2-1,0.4c0,0,0,0,0,0
+				c-0.8,0.3-1.6,0.6-2.3,0.9c-0.2,0.1-0.5,0.2-0.7,0.3c-0.2,0.1-0.5,0.2-0.7,0.3c-0.3,0.2-0.7,0.3-1,0.5c-0.3,0.1-0.5,0.3-0.8,0.4
+				c-0.3,0.1-0.5,0.3-0.7,0.4c-2.4,1.5-3.5,3.1-4.1,4.9c-1.2,3.8,0.9,7.2,4.5,9.4c0.7,0.5,1.4,0.9,2.1,1.3c0.1-0.1,0.3-0.2,0.4-0.4
+				c0.2-0.2,0.4-0.4,0.7-0.6c0.2-0.2,0.4-0.4,0.7-0.6c0.3-0.2,0.5-0.4,0.8-0.6c-0.3-0.2-0.5-0.4-0.8-0.6c-0.2-0.2-0.5-0.3-0.7-0.5
+				c-0.2-0.2-0.5-0.3-0.7-0.5c-0.4-0.3-0.8-0.6-1.2-0.8c-2.2-1.5-3-3.7-1.9-5.8c0.5-0.9,1.4-1.8,2.9-2.7c0.2-0.1,0.4-0.3,0.7-0.4
+				c0.2-0.1,0.4-0.2,0.7-0.4c0.2-0.1,0.3-0.2,0.5-0.2c0.3-0.1,0.5-0.3,0.8-0.4c0.3-0.1,0.6-0.2,0.8-0.4c0.7-0.3,1.4-0.6,2.2-0.9
+				c0.2-0.1,0.5-0.2,0.7-0.3c0.2-0.1,0.5-0.2,0.7-0.3c0.1,0,0.1-0.1,0.2-0.1c0.3-0.1,0.5-0.2,0.8-0.3c0.3-0.1,0.6-0.2,0.8-0.3
+				c0.3-0.1,0.5-0.2,0.8-0.3C259.2,51,266.2,28.7,257.4,15.5z"/>
+			
+				<linearGradient id="SVGID_00000038410524539714495130000007367000098624470183_" gradientUnits="userSpaceOnUse" x1="223.7663" y1="6.3737" x2="223.7663" y2="146.5309" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#302D7D"/>
+				<stop  offset="0.1625" style="stop-color:#2C3678"/>
+				<stop  offset="0.4255" style="stop-color:#214E6A"/>
+				<stop  offset="0.7541" style="stop-color:#0F7454"/>
+				<stop  offset="1" style="stop-color:#009640"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000038410524539714495130000007367000098624470183_);" d="M243.2,30.7h-19.4h-19.4
+				c0,0-0.8,6.7,5,12.8c5.3,5.6,10.7,9,11.9,15.4c0,0.3,0.1,0.5,0.1,0.8c0,0.2,0.1,0.5,0.1,0.8c0,0.1,0,0.2,0,0.3c0,0,0,0.1,0,0.1
+				c0.1-0.1,0.3-0.1,0.4-0.2c0.3-0.1,0.6-0.2,0.9-0.4c0.2-0.1,0.3-0.1,0.5-0.2c0.2-0.1,0.3-0.1,0.5-0.2c0.9-0.3,1.7-0.7,2.6-1
+				c1.1-6.4,6.6-9.7,11.9-15.4C244,37.4,243.2,30.7,243.2,30.7z"/>
+			
+				<linearGradient id="SVGID_00000053511378315158707480000008522173069330268054_" gradientUnits="userSpaceOnUse" x1="223.7946" y1="6.3737" x2="223.7946" y2="146.5309" gradientTransform="matrix(1 0 0 -1 0 102.2035)">
+				<stop  offset="0" style="stop-color:#302D7D"/>
+				<stop  offset="0.1625" style="stop-color:#2C3678"/>
+				<stop  offset="0.4255" style="stop-color:#214E6A"/>
+				<stop  offset="0.7541" style="stop-color:#0F7454"/>
+				<stop  offset="1" style="stop-color:#009640"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_00000053511378315158707480000008522173069330268054_);" d="M225.8,87c-0.1-1.5-0.2-4-0.2-4.3
+				c-0.2,0.1-0.5,0.3-0.7,0.4c-0.2,0.1-0.4,0.3-0.6,0.4c-0.2,0.1-0.4,0.3-0.6,0.4c0,0,0,0,0,0c-1.2,0.8-2,1.4-2,1.4l0,0
+				c0,0.6-0.1,1.2-0.1,1.7c-0.2,3.8-0.4,6-7.7,6.7v1.6h9.7h9.7v-1.6C226.3,93,226,90.8,225.8,87z"/>
+		</g>
+	</g>
+</g>
+</svg></a><div class="case-label">Кейс 44 · Learning system</div><nav class="nav" aria-label="Страницы кейса"><a href="index.html" class="active"><span class="nav-n">01</span><span>Система обучения</span></a><a href="02_roli_i_marshruty.html" class=""><span class="nav-n">02</span><span>Роли и маршруты</span></a><a href="03_trenazher_marshrutizacii.html" class=""><span class="nav-n">03</span><span>Тренажёр маршрутизации</span></a></nav><div class="profile"><label for="name">Профиль участника</label><input id="name" autocomplete="name" placeholder="Ваше имя"><div class="profile-row"><span>Общий прогресс</span><b id="sideProgress">0%</b></div></div></aside><main class="main" id="main"><header class="top"><span class="crumb">Кейс 44 / Система обучения</span><nav class="switch" aria-label="Быстрый переход"><a href="index.html" class="active" aria-label="Страница 1">01</a><a href="02_roli_i_marshruty.html" class="" aria-label="Страница 2">02</a><a href="03_trenazher_marshrutizacii.html" class="" aria-label="Страница 3">03</a></nav></header><div class="content">
+<section class="hero"><div class="hero-copy"><span class="eyebrow">ИВЦ МВА · практика + наука + образование</span><h1>Учиться так,<br>как лечим.</h1><p>Единая система превращает наставничество, клиническую практику и знания узких специалистов в понятный маршрут — от безопасного старта до передачи экспертизы.</p><div class="actions"><a class="btn" href="#levels">Посмотреть 5 уровней</a><a class="btn secondary" href="02_roli_i_marshruty.html">Выбрать роль</a></div></div><aside class="hero-panel"><strong>Ваше доверие — наша ответственность</strong><ul><li>решения на основе доказательной медицины;</li><li>полный цикл помощи в одном центре;</li><li>обучение внутри реальной клинической среды.</li></ul></aside></section>
+<div class="stats"><div class="stat"><strong>24/7</strong><span>работа филиалов</span></div><div class="stat"><strong>20</strong><span>направлений и отделений</span></div><div class="stat"><strong>5</strong><span>уровней развития</span></div><div class="stat"><strong>90</strong><span>дней адаптационного маршрута</span></div></div>
+<section class="section"><div class="section-head"><div><h2>Почему здесь нужна система</h2><p class="intro">Референс-центр объединяет сложную диагностику, лечение, стационар, лабораторию, сервис и образование. Знания должны переходить между сменами и отделениями без потери качества.</p></div></div><div class="grid"><article class="card"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.4 8-8 9-4.6-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-5"/></svg></div><div class="k">Безопасность</div><h3>Единый минимум</h3><p>Стандарты коммуникации, документации, передачи пациента и эскалации закрепляются до самостоятельной работы.</p></article><article class="card"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div><div class="k">Скорость</div><h3>Короче путь к роли</h3><p>Новичок видит не энциклопедию, а последовательность действий и критерии допуска к следующему уровню.</p></article><article class="card"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V9l8-5 8 5v10"/><path d="M8 19v-6h8v6"/></svg></div><div class="k">Преемственность</div><h3>Экспертиза остаётся внутри</h3><p>Клинические разборы, мастер-классы и консилиумы превращаются в повторяемые учебные объекты.</p></article></div></section>
+<section class="section" id="levels"><div class="section-head"><div><h2>Пять уровней обучения</h2><p class="intro">Боковая навигация задаёт три экрана кейса, а этот маршрут — логику развития сотрудника внутри системы.</p></div></div><div class="path"><article><b>01 · ORIENT</b><h3>Безопасный старт</h3><p>Миссия, этика, безопасность, документы, сервис и правила эскалации.</p></article><article><b>02 · ROLE</b><h3>Основа роли</h3><p>Сценарии смены, чек-листы, цифровые инструменты и границы ответственности.</p></article><article><b>03 · PRACTICE</b><h3>Практика с наставником</h3><p>Наблюдение, совместное действие, обратная связь и допуск.</p></article><article><b>04 · CLINIC</b><h3>Клиническое мышление</h3><p>Разборы случаев, взаимодействие отделений и доказательная аргументация.</p></article><article><b>05 · SHARE</b><h3>Передача экспертизы</h3><p>Наставничество, внутренние занятия, конференции и улучшение стандартов.</p></article></div></section>
+<section class="section"><div class="section-head"><div><h2>Первые 90 дней</h2><p class="intro">Критерий продвижения — не просмотр контента, а подтверждённое действие в своей роли.</p></div></div><div class="timeline"><article class="phase"><span class="days">Дни 1–7</span><h3>Войти в контекст</h3><ul><li>миссия и клиентский путь;</li><li>безопасность и документы;</li><li>наблюдение за сменой.</li></ul></article><article class="phase"><span class="days">Дни 8–30</span><h3>Работать рядом</h3><ul><li>микроуроки по роли;</li><li>тренировка типовых сценариев;</li><li>еженедельная обратная связь.</li></ul></article><article class="phase"><span class="days">Дни 31–60</span><h3>Действовать под контролем</h3><ul><li>кейсы возрастающей сложности;</li><li>межотдельные передачи;</li><li>контрольные наблюдения.</li></ul></article><article class="phase"><span class="days">Дни 61–90</span><h3>Подтвердить готовность</h3><ul><li>демонстрация навыка;</li><li>разбор ошибок;</li><li>индивидуальный план развития.</li></ul></article></div></section>
+<section class="section"><div class="callout"><strong>Цикл одного навыка: увидеть → обсудить → сделать → получить обратную связь → повторить.</strong><p>Видеоурок остаётся опорой, но завершение обучения подтверждает наблюдаемое действие и решение наставника.</p></div></section>
+<section class="section"><div class="section-head"><div><h2>Ядро учебной библиотеки</h2><p class="intro">Пятнадцать базовых модулей — концептуальная карта, которую затем уточняют владельцы процессов и медицинские руководители.</p></div></div><div class="grid" id="modules"><label class="card" style="cursor:pointer"><div class="k">Модуль 01</div><h3>Миссия, этика и доверие</h3><p><input type="checkbox" data-module="0" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 02</div><h3>Безопасность пациента и команды</h3><p><input type="checkbox" data-module="1" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 03</div><h3>Коммуникация с владельцем</h3><p><input type="checkbox" data-module="2" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 04</div><h3>Документация и согласия</h3><p><input type="checkbox" data-module="3" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 05</div><h3>Маршрутизация обращения</h3><p><input type="checkbox" data-module="4" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 06</div><h3>Передача пациента между отделениями</h3><p><input type="checkbox" data-module="5" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 07</div><h3>Работа в круглосуточной смене</h3><p><input type="checkbox" data-module="6" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 08</div><h3>Лаборатория и качество образца</h3><p><input type="checkbox" data-module="7" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 09</div><h3>Лучевая и ультразвуковая диагностика</h3><p><input type="checkbox" data-module="8" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 10</div><h3>Хирургический маршрут</h3><p><input type="checkbox" data-module="9" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 11</div><h3>Анестезия, ОРИТ и стационар</h3><p><input type="checkbox" data-module="10" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 12</div><h3>Онкология и сложный случай</h3><p><input type="checkbox" data-module="11" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 13</div><h3>Сервис и работа с эмоциями</h3><p><input type="checkbox" data-module="12" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 14</div><h3>Клинический разбор и доказательность</h3><p><input type="checkbox" data-module="13" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label><label class="card" style="cursor:pointer"><div class="k">Модуль 15</div><h3>Наставничество и развитие</h3><p><input type="checkbox" data-module="14" style="width:20px;height:20px;accent-color:#08745f;vertical-align:middle;margin-right:8px">Отметить как изученный</p></label></div></section>
+<section class="section"><div class="source"><b>Основа концепции</b><div>Официальный сайт описывает полный цикл помощи, 20 отделений, собственную лабораторию, наставничество, корпоративный учебный центр, мастер-классы, конференции и консилиумы. <a href="https://vetacademy.ru/" target="_blank" rel="noreferrer">vetacademy.ru</a></div></div><div class="source"><b>Образовательный контур</b><div>Цель мероприятий — непрерывное повышение профессионального уровня ветеринарных врачей. <a href="https://vetacademy.ru/obuchenie/master-klassy/" target="_blank" rel="noreferrer">Мастер-классы ИВЦ МВА</a></div></div></section><footer class="footer"><span>Кейс 44 · концепция корпоративного обучения ИВЦ МВА</span><span><a href="https://vetacademy.ru/" target="_blank" rel="noreferrer">Официальный сайт</a> · <a href="https://github.com/ybxjnxfjvc-byte/index44" target="_blank" rel="noreferrer">GitHub index44</a></span></footer></div></main></div><script>const KEY='ivc_mva_case44_v1';function read(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}function write(p){const n=Object.assign({},read(),p);try{localStorage.setItem(KEY,JSON.stringify(n))}catch(e){}render();return n}function render(){const s=read();const done=(s.done||[]).length;const quiz=s.best||0;const percent=Math.min(100,Math.round(done/15*70+quiz/7*30));const el=document.getElementById('sideProgress');if(el)el.textContent=percent+'%';const inp=document.getElementById('name');if(inp&&document.activeElement!==inp)inp.value=s.name||''}document.addEventListener('DOMContentLoaded',()=>{render();const inp=document.getElementById('name');if(inp)inp.addEventListener('change',()=>write({name:inp.value.trim()}))});document.addEventListener('DOMContentLoaded',()=>{const saved=read().done||[];document.querySelectorAll('[data-module]').forEach(c=>{c.checked=saved.includes(c.dataset.module);c.addEventListener('change',()=>write({done:[...document.querySelectorAll('[data-module]:checked')].map(x=>x.dataset.module)}))})});</script></body></html>
